@@ -38,4 +38,4 @@ for index, row in df.iterrows():
         pdf.set_font(family="Times", style="I", size=8)
         pdf.cell(w=0, h=10, txt=row["Topic"], align="C")
 
-pdf.output("Ouput.pdf")
+pdf.output("Output.pdf")
